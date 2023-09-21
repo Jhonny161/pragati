@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./study-materials.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="study-materials4">
+      <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+      <div class="study-materials-child"></div>
+      <div class="lesson-planning4" id="lessonPlanningText">
+        Lesson Planning
+      </div>
+      <div class="student-feedback5" id="studentFeedbackText">
+        Student Feedback
+      </div>
+      <div class="assessment5" id="assessmentText">Assessment</div>
+      <div class="study-materials5">Study Materials</div>
+      <div class="attendance5" id="attendanceText">Attendance</div>
+      <div class="assignments1">Assignments</div>
+      <div class="textbooks">Textbooks</div>
+      <div class="notes">Notes</div>
+      <div class="videos">
+        <p class="videos1">Videos</p>
+      </div>
+      <div class="pyqs">PYQs</div>
+      <div class="model-papers">Model Papers</div>
+      <div class="tests">Tests</div>
+      <div class="study-materials-item" id="rectangle1"></div>
+      <div class="study-materials-inner"></div>
+      <div class="study-materials-child1"></div>
+      <div class="study-materials-child2"></div>
+      <div class="study-materials-child3"></div>
+      <div class="study-materials-child4"></div>
+      <div class="study-materials-child5"></div>
+      <img
+        class="objects-icon1"
+        alt=""
+        src="./public/objects1.svg"
+        id="oBJECTS"
+      />
+
+      <img class="frame-icon1" alt="" src="./public/frame1.svg" />
+
+      <img class="frame-icon2" alt="" src="./public/frame2.svg" />
+
+      <img class="frame-icon3" alt="" src="./public/frame3.svg" />
+
+      <img class="frame-icon4" alt="" src="./public/frame4.svg" />
+
+      <img class="frame-icon5" alt="" src="./public/frame5.svg" />
+
+      <img class="frame-icon6" alt="" src="./public/frame6.svg" />
+    </div>
+
+    <script>
+      var lessonPlanningText = document.getElementById("lessonPlanningText");
+      if (lessonPlanningText) {
+        lessonPlanningText.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var studentFeedbackText = document.getElementById("studentFeedbackText");
+      if (studentFeedbackText) {
+        studentFeedbackText.addEventListener("click", function (e) {
+          window.location.href = "./student-feedback.html";
+        });
+      }
+      
+      var assessmentText = document.getElementById("assessmentText");
+      if (assessmentText) {
+        assessmentText.addEventListener("click", function (e) {
+          window.location.href = "./assessment.html";
+        });
+      }
+      
+      var attendanceText = document.getElementById("attendanceText");
+      if (attendanceText) {
+        attendanceText.addEventListener("click", function (e) {
+          window.location.href = "./attendance.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./assignments.html";
+        });
+      }
+      
+      var oBJECTS = document.getElementById("oBJECTS");
+      if (oBJECTS) {
+        oBJECTS.addEventListener("click", function (e) {
+          window.location.href = "./assignments.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+.group-icon,
+.isolation-mode,
+.vector-icon {
+  position: absolute;
+  top: 586px;
+  left: 118px;
+  width: 1529px;
+  height: 586px;
+  overflow: hidden;
+}
+.group-icon,
+.vector-icon {
+  height: 57.23%;
+  width: 106.17%;
+  top: 0;
+  right: -6.17%;
+  bottom: 42.77%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.group-icon {
+  height: 47.81%;
+  width: 52.5%;
+  top: 35.74%;
+  right: 45.69%;
+  bottom: 16.45%;
+  left: 1.81%;
+}
+.login-child,
+.login-item {
+  position: absolute;
+  height: 64.45%;
+  width: 33.61%;
+  top: 16.31%;
+  right: 4.24%;
+  bottom: 19.24%;
+  left: 62.15%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gainsboro-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login-item {
+  top: 15.14%;
+  right: 5.14%;
+  bottom: 20.41%;
+  left: 61.25%;
+  background-color: var(--color-beige);
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.25);
+}
+.login1 {
+  position: absolute;
+  height: 8.4%;
+  width: 13.4%;
+  top: 23.73%;
+  left: 72.15%;
+  font-size: var(--font-size-41xl);
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+}
+.login-inner,
+.rectangle-div {
+  position: absolute;
+  height: 6.35%;
+  width: 22.29%;
+  top: 38.87%;
+  right: 9.1%;
+  bottom: 54.79%;
+  left: 68.61%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+.rectangle-div {
+  height: 6.25%;
+  top: 48.83%;
+  bottom: 44.92%;
+}
+.email,
+.password {
+  position: absolute;
+  height: 3.61%;
+  width: 4.93%;
+  top: 40.23%;
+  left: 76.04%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+}
+.password {
+  width: 9.1%;
+  top: 50.2%;
+  left: 74.93%;
+}
+.dont-have-an-container,
+.forgot-password,
+.remember-me {
+  position: absolute;
+  height: 1.86%;
+  width: 6.25%;
+  top: 57.81%;
+  left: 70.21%;
+  display: inline-block;
+}
+.dont-have-an-container,
+.forgot-password {
+  width: 7.99%;
+  left: 82.5%;
+}
+.dont-have-an-container {
+  width: 14.79%;
+  top: 67.48%;
+  left: 72.36%;
+  cursor: pointer;
+}
+.padlock-1-icon,
+.user-1-icon {
+  position: absolute;
+  height: 3.61%;
+  width: 2.57%;
+  top: 40.23%;
+  right: 32.36%;
+  bottom: 56.15%;
+  left: 65.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.padlock-1-icon {
+  height: 4%;
+  width: 2.92%;
+  top: 49.61%;
+  bottom: 46.39%;
+  left: 64.72%;
+}
+.login-child1 {
+  position: absolute;
+  top: 644px;
+  left: 1072px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 138px;
+  height: 33px;
+  cursor: pointer;
+}
+.login-child2 {
+  position: absolute;
+  top: 595px;
+  left: 990px;
+  background-color: var(--color-beige);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 13px;
+  height: 12px;
+}
+.login2,
+.welcome {
+  position: absolute;
+  height: 2.64%;
+  width: 3.89%;
+  top: 62.99%;
+  left: 77.29%;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  display: inline-block;
+}
+.welcome {
+  height: 8.4%;
+  width: 21.74%;
+  top: 13.28%;
+  left: 14.58%;
+  font-size: var(--font-size-46xl);
+  color: var(--color-orange);
+}
+.span {
+  font-size: var(--font-size-51xl);
+  font-weight: 500;
+}
+.to-pragati {
+  position: absolute;
+  height: 7.71%;
+  width: 21.32%;
+  top: 18.16%;
+  left: 14.72%;
+  color: var(--color-orange);
+  display: inline-block;
+  font-size: var(--font-size-31xl);
+}
+.login {
+  position: relative;
+  background-color: var(--color-ghostwhite-100);
+  box-shadow: 0 4px 4px rgba(242, 175, 131, 0.4) inset;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}

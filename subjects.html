@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./subjects.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="subjects">
+      <img
+        class="isolation-mode-icon1"
+        alt=""
+        src="./public/isolation-mode1.svg"
+      />
+
+      <div class="subjects-you-teach">Subjects you teach:</div>
+      <img
+        class="home-1-icon4"
+        alt=""
+        src="./public/home-1@2x.png"
+        id="home1Icon"
+      />
+
+      <img class="frame-icon" alt="" src="./public/frame.svg" />
+
+      <div class="subjects-inner">
+        <div class="group-child33" id="rectangle"></div>
+      </div>
+      <div class="subjects-child">
+        <div class="group-child33" id="rectangle1"></div>
+      </div>
+      <div class="subjects-inner1">
+        <div class="group-child33" id="rectangle2"></div>
+      </div>
+      <div class="subjects-inner2">
+        <div class="group-child33" id="rectangle3"></div>
+      </div>
+      <div class="subjects-inner3">
+        <div class="group-child33" id="rectangle4"></div>
+      </div>
+      <div class="english">English</div>
+      <div class="maths">Maths</div>
+      <div class="physics">Physics</div>
+      <div class="chemsitry">Chemsitry</div>
+      <div class="physical-education">Physical Education</div>
+      <div class="class-11-a">Class 11 A</div>
+    </div>
+
+    <script>
+      var home1Icon = document.getElementById("home1Icon");
+      if (home1Icon) {
+        home1Icon.addEventListener("click", function (e) {
+          window.location.href = "./home-page1.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      </script>
+  </body>
+</html>

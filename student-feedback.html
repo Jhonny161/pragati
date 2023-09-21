@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./student-feedback.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="student-feedback">
+      <img class="group-icon1" alt="" src="./public/group1.svg" />
+
+      <div class="student-feedback-child"></div>
+      <div class="student-feedback-item"></div>
+      <div class="student-feedback-inner"></div>
+      <div class="lesson-planning" id="lessonPlanningText">Lesson Planning</div>
+      <div class="student-feedback1">Student Feedback</div>
+      <div class="assessment" id="assessmentText">Assessment</div>
+      <div class="study-materials" id="studyMaterialsText">Study Materials</div>
+      <div class="attendance" id="attendanceText">Attendance</div>
+      <img
+        class="home-1-icon"
+        alt=""
+        src="./public/home-1@2x.png"
+        id="home1Icon"
+      />
+
+      <div class="student-feedback-child1"></div>
+      <img
+        class="student-feedback-child2"
+        alt=""
+        src="./public/group-17@2x.png"
+      />
+
+      <div class="type-the-text">Type the text</div>
+    </div>
+
+    <script>
+      var lessonPlanningText = document.getElementById("lessonPlanningText");
+      if (lessonPlanningText) {
+        lessonPlanningText.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var assessmentText = document.getElementById("assessmentText");
+      if (assessmentText) {
+        assessmentText.addEventListener("click", function (e) {
+          window.location.href = "./assessment.html";
+        });
+      }
+      
+      var studyMaterialsText = document.getElementById("studyMaterialsText");
+      if (studyMaterialsText) {
+        studyMaterialsText.addEventListener("click", function (e) {
+          window.location.href = "./study-materials.html";
+        });
+      }
+      
+      var attendanceText = document.getElementById("attendanceText");
+      if (attendanceText) {
+        attendanceText.addEventListener("click", function (e) {
+          window.location.href = "./attendance.html";
+        });
+      }
+      
+      var home1Icon = document.getElementById("home1Icon");
+      if (home1Icon) {
+        home1Icon.addEventListener("click", function (e) {
+          window.location.href = "./home-page1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

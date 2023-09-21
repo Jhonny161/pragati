@@ -1,0 +1,234 @@
+.vector-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.study-materials-child {
+  position: absolute;
+  top: 5px;
+  left: 522px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #168db3, #6eb4ac);
+  width: 215px;
+  height: 61px;
+}
+.lesson-planning4,
+.student-feedback5 {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  font-size: var(--font-size-5xl);
+  line-height: 50px;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 196px;
+  height: 52px;
+  cursor: pointer;
+}
+.student-feedback5 {
+  left: 1209px;
+  width: 230px;
+}
+.assessment5 {
+  left: 1005px;
+  width: 148px;
+  cursor: pointer;
+}
+.assessment5,
+.attendance5,
+.study-materials5 {
+  position: absolute;
+  top: 9px;
+  font-size: var(--font-size-5xl);
+  line-height: 50px;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  height: 52px;
+}
+.study-materials5 {
+  left: 541px;
+  color: var(--color-white);
+  width: 190px;
+}
+.attendance5 {
+  left: 778px;
+  width: 146px;
+  cursor: pointer;
+}
+.assignments1,
+.notes,
+.textbooks {
+  position: absolute;
+  top: 452px;
+  left: 255px;
+  font-weight: 500;
+  display: inline-block;
+  width: 229px;
+  height: 42px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.notes,
+.textbooks {
+  left: 616px;
+  width: 181px;
+}
+.notes {
+  left: 1026px;
+  width: 104px;
+}
+.videos1 {
+  margin: 0;
+}
+.model-papers,
+.pyqs,
+.tests,
+.videos {
+  position: absolute;
+  top: 819px;
+  left: 509px;
+  font-weight: 500;
+  display: inline-block;
+  width: 117px;
+  height: 42px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.model-papers,
+.pyqs,
+.tests {
+  left: 192px;
+  width: 97px;
+}
+.model-papers,
+.tests {
+  left: 1116px;
+  width: 236px;
+}
+.tests {
+  left: 864px;
+  width: 97px;
+}
+.study-materials-child1,
+.study-materials-inner,
+.study-materials-item {
+  position: absolute;
+  top: 229px;
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+  width: 196px;
+  height: 194px;
+}
+.study-materials-item {
+  left: 271px;
+  background-color: #7f9a8b;
+  cursor: pointer;
+}
+.study-materials-child1,
+.study-materials-inner {
+  left: 607px;
+  background-color: #f1d6b6;
+}
+.study-materials-child1 {
+  left: 972px;
+  background-color: #99cfff;
+}
+.study-materials-child2,
+.study-materials-child3,
+.study-materials-child4,
+.study-materials-child5 {
+  position: absolute;
+  top: 596px;
+  left: 135px;
+  border-radius: var(--br-xl);
+  background-color: rgba(167, 207, 87, 0.69);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.55);
+  width: 196px;
+  height: 194px;
+}
+.study-materials-child3,
+.study-materials-child4,
+.study-materials-child5 {
+  left: 471px;
+  background-color: rgba(255, 114, 94, 0.63);
+}
+.study-materials-child4,
+.study-materials-child5 {
+  left: 807px;
+  background-color: rgba(61, 116, 120, 0.75);
+}
+.study-materials-child5 {
+  left: 1141px;
+  background-color: rgba(232, 80, 171, 0.54);
+}
+.objects-icon1 {
+  position: absolute;
+  top: 244px;
+  left: 285px;
+  width: 169px;
+  height: 163px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame-icon1,
+.frame-icon2,
+.frame-icon3 {
+  position: absolute;
+  top: 236px;
+  left: 634px;
+  width: 142px;
+  height: 180px;
+  overflow: hidden;
+}
+.frame-icon2,
+.frame-icon3 {
+  top: 245px;
+  left: 990px;
+  width: 160px;
+  height: 162px;
+}
+.frame-icon3 {
+  top: 630px;
+  left: 476px;
+  width: 186px;
+  height: 126px;
+}
+.frame-icon4,
+.frame-icon5,
+.frame-icon6 {
+  position: absolute;
+  top: 608px;
+  left: 820px;
+  width: 171px;
+  height: 169px;
+  overflow: hidden;
+}
+.frame-icon5,
+.frame-icon6 {
+  top: 617px;
+  left: 1138px;
+  width: 201px;
+  height: 152px;
+}
+.frame-icon6 {
+  top: 603px;
+  left: 173px;
+  width: 121px;
+  height: 179px;
+}
+.study-materials4 {
+  position: relative;
+  background-color: #f8fbff;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

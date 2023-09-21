@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./attendance.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="attendance1">
+      <img class="attendance-child" alt="" src="./public/frame-6.svg" />
+
+      <div class="attendance-item"></div>
+      <div class="attendance-inner">
+        <div class="frame-wrapper">
+          <div class="group-wrapper">
+            <div class="frame-parent">
+              <div class="rectangle-wrapper">
+                <div class="frame-child"></div>
+              </div>
+              <div class="group-child8"></div>
+              <div class="group-child9"></div>
+              <div class="group-child10"></div>
+              <div class="group-child11"></div>
+              <img
+                class="rectangle-icon"
+                alt=""
+                src="./public/rectangle-60.svg"
+              />
+
+              <div class="group-child12"></div>
+              <div class="group-child13"></div>
+              <div class="group-child14"></div>
+              <div class="group-child15"></div>
+              <div class="group-child16"></div>
+              <div class="group-child17"></div>
+              <div class="group-child18"></div>
+              <div class="group-child19"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attendance-child1"></div>
+      <div class="attendance-child2"></div>
+      <div class="attendance-child3"></div>
+      <div class="attendance-child4"></div>
+      <div class="attendance-child5"></div>
+      <div class="attendance-child6"></div>
+      <div class="attendance-child7"></div>
+      <div class="lesson-planning1" id="lessonPlanningText">
+        Lesson Planning
+      </div>
+      <div class="student-feedback2" id="studentFeedbackText">
+        Student Feedback
+      </div>
+      <div class="attendance-child8"></div>
+      <div class="assessment1" id="assessmentText">Assessment</div>
+      <div class="study-materials1" id="studyMaterialsText">
+        Study Materials
+      </div>
+      <div class="attendance2">Attendance</div>
+      <div class="name-date">Name / Date</div>
+      <img
+        class="home-1-icon1"
+        alt=""
+        src="./public/home-1@2x.png"
+        id="home1Icon"
+      />
+
+      <div class="attendance-child9"></div>
+    </div>
+
+    <script>
+      var lessonPlanningText = document.getElementById("lessonPlanningText");
+      if (lessonPlanningText) {
+        lessonPlanningText.addEventListener("click", function (e) {
+          window.location.href = "./lesson-plan.html";
+        });
+      }
+      
+      var studentFeedbackText = document.getElementById("studentFeedbackText");
+      if (studentFeedbackText) {
+        studentFeedbackText.addEventListener("click", function (e) {
+          window.location.href = "./student-feedback.html";
+        });
+      }
+      
+      var assessmentText = document.getElementById("assessmentText");
+      if (assessmentText) {
+        assessmentText.addEventListener("click", function (e) {
+          window.location.href = "./assessment.html";
+        });
+      }
+      
+      var studyMaterialsText = document.getElementById("studyMaterialsText");
+      if (studyMaterialsText) {
+        studyMaterialsText.addEventListener("click", function (e) {
+          window.location.href = "./study-materials.html";
+        });
+      }
+      
+      var home1Icon = document.getElementById("home1Icon");
+      if (home1Icon) {
+        home1Icon.addEventListener("click", function (e) {
+          window.location.href = "./home-page1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

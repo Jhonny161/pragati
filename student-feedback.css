@@ -1,0 +1,131 @@
+.group-icon1 {
+  position: absolute;
+  height: 93.16%;
+  width: 105.07%;
+  top: 6.84%;
+  right: -10.14%;
+  bottom: 0;
+  left: 5.07%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.5;
+}
+.student-feedback-child,
+.student-feedback-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #c0dd8b;
+  width: 281px;
+  height: 1024px;
+}
+.student-feedback-item {
+  left: 281px;
+  background-color: #6c9a94;
+  width: 1159px;
+  height: 70px;
+}
+.student-feedback-inner {
+  position: absolute;
+  top: 0;
+  left: 1197px;
+  background-color: var(--color-dimgray);
+  width: 244px;
+  height: 70px;
+}
+.lesson-planning {
+  position: absolute;
+  top: 9px;
+  left: 297px;
+  line-height: 50px;
+  display: inline-block;
+  width: 196px;
+  height: 52px;
+  cursor: pointer;
+}
+.student-feedback1 {
+  position: absolute;
+  left: 1209px;
+  width: 230px;
+}
+.assessment,
+.student-feedback1,
+.study-materials {
+  top: 9px;
+  line-height: 50px;
+  display: inline-block;
+  height: 52px;
+}
+.assessment {
+  position: absolute;
+  left: 1005px;
+  width: 148px;
+  cursor: pointer;
+}
+.study-materials {
+  left: 528px;
+  width: 190px;
+}
+.attendance,
+.home-1-icon,
+.study-materials {
+  position: absolute;
+  cursor: pointer;
+}
+.attendance {
+  top: 9px;
+  left: 778px;
+  line-height: 50px;
+  display: inline-block;
+  width: 146px;
+  height: 52px;
+}
+.home-1-icon {
+  height: 3.91%;
+  width: 2.78%;
+  top: 2.15%;
+  right: 95.07%;
+  bottom: 93.95%;
+  left: 2.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.student-feedback-child1 {
+  position: absolute;
+  top: 915px;
+  left: 500px;
+  background-color: rgba(0, 67, 51, 0.62);
+  width: 808px;
+  height: 52px;
+}
+.student-feedback-child2 {
+  position: absolute;
+  top: 925px;
+  left: 1266px;
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+}
+.type-the-text {
+  position: absolute;
+  top: 918px;
+  left: 540px;
+  line-height: 50px;
+  display: inline-block;
+  width: 170px;
+  height: 38px;
+}
+.student-feedback {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

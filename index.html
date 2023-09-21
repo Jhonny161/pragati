@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="isolation-mode"></div>
+      <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+      <img class="group-icon" alt="" src="./public/group.svg" />
+
+      <div class="login-child"></div>
+      <div class="login-item"></div>
+      <div class="login1">Login</div>
+      <div class="login-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="email">Email</div>
+      <div class="password">Password</div>
+      <div class="remember-me">Remember Me</div>
+      <div class="forgot-password">Forgot Password ?</div>
+      <div class="dont-have-an-container" id="dontHaveAn">
+        <span>Don't have an account ? </span>
+        <b>Register</b>
+      </div>
+      <img class="user-1-icon" alt="" src="./public/user-1@2x.png" />
+
+      <img class="padlock-1-icon" alt="" src="./public/padlock-1@2x.png" />
+
+      <div class="login-child1" id="rectangle4"></div>
+      <div class="login-child2"></div>
+      <div class="login2">Login</div>
+      <div class="welcome">Welcome</div>
+      <div class="to-pragati">
+        <span>to</span>
+        <span class="span"> </span>
+        <b>Pragati!</b>
+      </div>
+    </div>
+
+    <script>
+      var dontHaveAn = document.getElementById("dontHaveAn");
+      if (dontHaveAn) {
+        dontHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./registration-screen.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./home-page1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

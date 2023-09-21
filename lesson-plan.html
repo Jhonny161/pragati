@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./lesson-plan.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="lesson-plan">
+      <div class="lesson-plan-child"></div>
+      <div class="lesson-plan-item"></div>
+      <div class="lesson-planning3">Lesson Planning</div>
+      <div class="student-feedback4" id="studentFeedbackText">
+        Student Feedback
+      </div>
+      <div class="assessment4" id="assessmentText">Assessment</div>
+      <div class="study-materials3" id="studyMaterialsText">
+        Study Materials
+      </div>
+      <div class="attendance4" id="attendanceText">Attendance</div>
+      <img
+        class="home-1-icon3"
+        alt=""
+        src="./public/home-1@2x.png"
+        id="home1Icon"
+      />
+    </div>
+
+    <script>
+      var studentFeedbackText = document.getElementById("studentFeedbackText");
+      if (studentFeedbackText) {
+        studentFeedbackText.addEventListener("click", function (e) {
+          window.location.href = "./student-feedback.html";
+        });
+      }
+      
+      var assessmentText = document.getElementById("assessmentText");
+      if (assessmentText) {
+        assessmentText.addEventListener("click", function (e) {
+          window.location.href = "./assessment.html";
+        });
+      }
+      
+      var studyMaterialsText = document.getElementById("studyMaterialsText");
+      if (studyMaterialsText) {
+        studyMaterialsText.addEventListener("click", function (e) {
+          window.location.href = "./study-materials.html";
+        });
+      }
+      
+      var attendanceText = document.getElementById("attendanceText");
+      if (attendanceText) {
+        attendanceText.addEventListener("click", function (e) {
+          window.location.href = "./attendance.html";
+        });
+      }
+      
+      var home1Icon = document.getElementById("home1Icon");
+      if (home1Icon) {
+        home1Icon.addEventListener("click", function (e) {
+          window.location.href = "./home-page1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
